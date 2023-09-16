@@ -33,6 +33,7 @@ else if (env.BRANCH_NAME == "dev") {
 
 else {
     region = "us-west-2"
+    key_pair = "my-laptop-key"
 }
 
 
@@ -63,3 +64,15 @@ podTemplate(cloud: 'kubernetes', label: 'packer', yaml: template) {
 }
     }
 }
+
+
+Message april-group-2023
+
+
+
+
+
+
+
+
+
