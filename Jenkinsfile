@@ -46,7 +46,7 @@ podTemplate(cloud: 'kubernetes', label: 'packer', yaml: template) {
             withEnv(["AWS_REGION=${region}"]) {
 
             stage("Checkout SCM") {
-                git branch: 'main', url: 'https://github.com/kaizenacademy/packer-jenkins-april.git'
+                git branch: 'main', url: 'https://github.com/guze123/packer-jenkins.git'
             }
             
             stage("Packer build") {
